@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="toggle.css">
+		<title>calculator_app</title>
+	</head>
+	<body>
+		<header>
+			<h1>calc</h1>
+			<div id="div-theme">
+				<p id="theme">THEME</p>
+            </div>
+            <div id="sec-part-header">
+            <div id="f-r">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+            </div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+        </div>
+		</header>
+		<div id="screen">
+			<p id="num" aria-live="polite">0</p>
+		</div>
+		<article>
+			<div class="art-btns">
+				<button class="simple" id="seven" value="7">7</button>
+				<button class="simple" id="eight" value="8">8</button>
+				<button class="simple" id="nine" value="9">9</button>
+				<button id="delete">DEL</button>
+			</div>
+			<div class="art-btns">
+				<button class="simple" id="four" value="4">4</button>
+				<button class="simple" id="five" value="5">5</button>
+				<button class="simple" id="six" value="6">6</button>
+				<button id="plus">+</button>
+			</div>
+			<div class="art-btns">
+				<button class="simple" id="one" value="1">1</button>
+				<button class="simple" id="two" value="2">2</button>
+				<button class="simple" id="three" value="3">3</button>
+				<button id="minus">-</button>
+			</div>
+			<div class="art-btns">
+				<button class="simple" id="point">.</button>
+				<button class="simple" id="zero" value="0">0</button>
+				<button class="simple" id="slash">/</button>
+				<button id="multiply">x</button>
+			</div>
+			<div class="art-btns">
+				<button id="reset">RESET</button>
+				<button id="equal">=</button>
+			</div>
+		</article>
+        <script src="main.js"></script>
+	</body>
+</html>
