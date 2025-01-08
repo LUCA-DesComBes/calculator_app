@@ -43,6 +43,7 @@ h1 {
 #screen {
 	font-weight: 700;
 	font-size: 40px;
+    height: 88px;
     width: 100%;
 	text-align: right;
 	border-radius: 10px;
@@ -114,7 +115,8 @@ button {
     h1 {
         margin-right: 329px;
     }
-    #screen {
+    #screen {   
+        height: 88px;
         width: 86.5%;
     }
     button {
